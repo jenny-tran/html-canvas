@@ -1,8 +1,8 @@
-#HTML Canvas
+# HTML Canvas
 
 Source: [Chris Courses on Youtube](https://www.youtube.com/watch?v=EO6OkltgudE)
 
-##Skills required:
+## Skills required:
 1. Create and resizing your canvas
 2. Drawing Elements
 3. Animating Elements
@@ -33,5 +33,4 @@ c.stroke();
 - Line: `c.strokeStyle = any css colour` before `c.stroke()`
 - Shape-fill: `c.fillStyle = 'rgba(255, 0, 0, 0.1)';` before shape
 
-
-Up to video [Video 3](https://www.youtube.com/watch?v=yq2au9EfeRQ).
+Up to [Video 3](https://www.youtube.com/watch?v=yq2au9EfeRQ).
