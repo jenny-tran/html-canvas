@@ -27,14 +27,16 @@ Experimentations with guidance from [Chris Courses on Youtube](https://www.youtu
 	```
 
 ## Add to colours to our canvas
-- Line: `c.strokeStyle = any css colour` before `c.stroke()`
-- Shape-fill: `c.fillStyle = 'rgba(255, 0, 0, 0.1)';` before shape
+- Line: `c.strokeStyle = 'rgba/hex-color'` before `c.stroke()` declaration
+- Shape-fill: `c.fillStyle = 'rgba/hex-color'` before shape drawing
 
 
 ## Note:
 - For every new shape/stroke, write `c.beginPath();` or else it's just going to continue on from the last declaration and join the shapes.
 - Use a for-loop to create multiple shapes without redundancy code
 	```
+	var colours = ['red', 'orange', 'blue', 'pink', 'black', 'teal'];
+
 	for (var i = 0; i < 100; i++) {
 		var x = Math.random() * window.innerWidth;
 		var y = Math.random() * window.innerHeight;
